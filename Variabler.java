@@ -11,6 +11,8 @@ public class Variabler{
 		s3 = " kys?";
 		String s4 = "\n";
 		JOptionPane.showMessageDialog(null, s1 + s4 + s2 + s4 + s3);
+		String name = JOptionPane.showInputDialog(null, "What is your name");
+		JOptionPane.showMessageDialog(null, "Hello " + name + "!");
 
 
 
